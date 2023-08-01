@@ -13,7 +13,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
  * @node: A pointer to the node to check.
  *
  * Return: If the node is a leaf, 1, otherwise, 0.
- */
+ 
 unsigned char is_leaf(const binary_tree_t *node)
 {
 	return ((node->left == NULL && node->right == NULL) ? 1 : 0);
